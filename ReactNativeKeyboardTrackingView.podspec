@@ -15,8 +15,8 @@ Pod::Spec.new do |s|
   s.module_name  = 'ReactNativeKeyboardTrackingView'
 
   s.source       = { :git => "https://github.com/wix/react-native-keyboard-tracking-view.git", :tag => "#{s.version}" }
-  s.source_files  = "lib/ios/**/*.{h,m}"
-  s.exclude_files  = "lib/ios/LNInterpolation/**/*.*", "lib/ios/RCTCustomInputController/**/*.*"
+  s.source_files  = "lib/**/*.{h,m}"
+  s.exclude_files  = ""
 
   s.dependency 'React'
   s.frameworks = 'UIKit'
